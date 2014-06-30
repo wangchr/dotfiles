@@ -112,3 +112,9 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias eniac="ssh wangchr@eniac.seas.upenn.edu"
 alias la="ls -a"
 alias ll="ls -l"
+alias d='cd $HOME/Desktop/'
+alias ..='cd ../'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+
+alias rm='rm -I --preserve-root' # safety net for rm
